@@ -1,0 +1,70 @@
+* {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+
+body {
+  background-image: url("../Pictures/handlight.jpg");
+  background-color: rgb(29, 36, 36);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.time-date {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mid-nav {
+  height: 500px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.time-date-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mid-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.mid-nav-links li a {
+  text-decoration: none;
+  color: rgb(241, 241, 176);
+}
+
+.mid-nav-links li a:hover {
+  text-decoration: none;
+  background-color: rgb(42, 212, 255);
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
