@@ -7,8 +7,9 @@ $font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewrit
 }
 
 body {
-    background-image: url("../Pictures/handlight.jpg");
     background-color: rgb(29, 36, 36);
+    // background-image: url("https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
 
 }
 
@@ -16,15 +17,19 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 125vh;
 
 
 }
 
-.time-date {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-around;
+#current-time {
+    margin: 20px;
+    // justify-content: normal;
+    font-size: 15px;
+    color: $third-color;
+    position: absolute;
+    bottom: 300px;
+    left: 639px;
 }
 
 
@@ -34,7 +39,6 @@ nav {
     // display: inline-flex;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 .logo-container {
@@ -50,12 +54,8 @@ nav {
 
 img {
     height: 250px;
-    width: 250px;
-}
-
-.time-date-container {
-    text-align: center;
-    margin-bottom: 50px;
+    width: 150px;
+    
 }
 
 
@@ -76,3 +76,32 @@ img {
     background-color: $secondary-color;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
