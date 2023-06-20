@@ -4,7 +4,6 @@
 
 body {
   background-color: rgb(29, 36, 36);
-  background-size: cover;
 }
 
 nav {
@@ -14,42 +13,31 @@ nav {
   height: 125vh;
 }
 
-#current-time {
-  margin: 20px;
-  font-size: 15px;
-  color: rgb(241, 241, 176);
-  position: absolute;
-  bottom: 300px;
-  left: 639px;
-}
-
-.mid-nav {
-  height: 500px;
-  width: 150px;
-  display: flex;
-  flex-direction: column;
-}
-
 .logo-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
-.logo {
+#current-time {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  font-size: 14px;
 }
 
 img {
-  height: 250px;
-  width: 150px;
+  height: 10vh;
+  width: 25vh;
+  object-fit: cover;
 }
 
 .mid-nav-links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: center;
+  gap: 20px;
   list-style: none;
 }
 
