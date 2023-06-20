@@ -20,15 +20,18 @@ nav {
 
 .logo-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    
 
     
 }
 #current-time {
     display: flex;
     align-items: center;
-    font-size: 14.5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: $third-color;
 }
 
 
@@ -47,6 +50,8 @@ img {
     align-content: center;
     gap: 20px;
     list-style: none;
+    font-size: 14.5px;
+    margin-top: 150px;
 }
 
 .mid-nav-links li a{

@@ -8,7 +8,7 @@ function displayCurrentTime() {
     let hours = currentTime.getHours();
     let minutes = currentTime.getMinutes();
     let seconds = currentTime.getSeconds();
-    let ampm = hours >= 12 ? "PM" : "AM";
+    let ampm = hours >= 12 ? "pm" : "am";
 
     // Convert to 12-hour Format
     hours = hours % 12;
@@ -21,7 +21,7 @@ function displayCurrentTime() {
     minutes = (minutes < 10 ? "0" : "") + minutes;
     seconds = (seconds < 10 ? "0" : "") + seconds;
 
-    var timeString = month + "/" + day + "/" + year + ", " + hours + ":" + minutes + ":" + seconds + " " + ampm;
+    var timeString = month + "/" + day + "/" + year + ", " + hours + ":" + minutes + ":" + seconds + " " + ampm + " Vegas, NV"
 
     document.getElementById("current-time").textContent = timeString;
 }
